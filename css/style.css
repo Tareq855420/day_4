@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 .col-1 { width: 8.33% }
@@ -25,6 +27,12 @@
     content: '';
     clear: both;
     display: block;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .h-50 { height: 50px }
